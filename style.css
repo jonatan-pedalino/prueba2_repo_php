@@ -16,6 +16,7 @@ body {
     padding: 0%;
     position: fixed;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     
 }
@@ -38,12 +39,13 @@ body {
     width: 180px;
     height: 35px;
     border-radius: 10px;
-    justify-content: center;
+    align-items: center;
 
 }
 
 .container #button1 {
     border-radius: 6px;
+    align-items: center;
 }
 
 .container a {
