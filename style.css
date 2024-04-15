@@ -4,57 +4,50 @@
     font-family: Century;
 }
 
-.nav {
-    background-color: rgb(143, 7, 3);
+body {
+    background-color: black;
+}
+
+.container {
     width: 100%;
-    height: 20%;
-}
-
-.nav1 {
-    background-color: rgb(70, 6, 6);
-    color: #f01e1eda;
-    width: 10%;
-    height: 20px;
-     border-radius: 6px;
-     margin: 5px;
-     cursor: pointer;
-}
-
-.nav2 {
+    height: 100px;
+    background-color: #701a05da;
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
     display: flex;
-    justify-content: end;
-    background-color: black;
-    margin: 0px;
+    justify-content: space-around;
+    
 }
 
-.nav2 button {
+.container .elementos {
+    display: inline-block;
+}
+
+.container .elementos  button {
+    background-color: #09d41ada;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    justify-content: center;
     cursor: pointer;
-    border-radius: 6px;
-    margin: 5px;
-    padding: 5px;
-    background-color: #f01e1eda;
-    color: rgb(70, 6, 6);
 }
 
-.nav2 select {
-    cursor: pointer;
-    border-radius: 6px;
-    margin: 5px;
-    padding: 5px;
-    background-color: #f01e1eda;
+.container select{
+    background-color: #09d41ada;
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+    justify-content: center;
+
 }
 
-#menu{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    justify-content: center;
+.container #button1 {
+    border-radius: 6px;
 }
-#menu button {
-    justify-content: center;
-    margin-left: 50px;
-    display: inline;
-    justify-content: center;
+
+.container a {
+    text-decoration: none;
 }
 
 header{
@@ -104,8 +97,20 @@ li {
 }
 
 input {
-    background-color: rgb(39, 7, 99);
-    color: rgb(247, 236, 236);
+    border-radius: 10px;
+    margin: 15px;
+    width: 75px;
+    height: 40px;
+    background-color: #490503da;
+    color: #09d41ada;
+    cursor: pointer;
+}
+
+#input1 {
+    border-radius: 10px;
+    margin: 15px;
+    width: 130px;
+    text-justify: center;
 }
 
 #registro {
@@ -121,11 +126,11 @@ input {
 
 .buscando {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px;
     overflow: auto;
-    
-}
+    background-color: rgb(49, 3, 3);
+    }
 
 .buscando img {
     width: 200px; height: 250px;
@@ -137,7 +142,7 @@ input {
 
 .buscando img:hover {
     box-shadow: 0 5px 10px 5px rgba(0,0,0,1);
-    transform: translateY(-3%);
+    transform: translateY(-5%);
 }
 
 .input {

@@ -8,33 +8,28 @@
 </head>
 
 <body>
-    <nav class="nav">
-    <div>
-        <input class="nav1" type="submit" name="Datos Personales" value="Registrarse">
+    <div class="container">
+        <div class="elementos"><button><a href="#"><h3>Registrarse</h3></a></button></div>
+        <div class="elementos"><button><h3>peliculas</h3></button></div>
+        <div class="elementos"><a href="#"><button><h3>series</h3></button></a></div>
+        <div class="elementos"><select name="buscar" id="elementos1" >Buscar
+            <option value="peli"><h1>Buscar</h1></option>
+            <option value="peli">peliculas</option>
+            <option value="series">series</option>
+            <option value="peli">la mas vistas</option>
+            <option value="peli">tendencias</option>
+        </select></div>
     </div>
-    <div class="nav2">
-        <a href="#"><button>Peliculas</button></a>
-        <a href="#"><button>Series</button></a>
-        <select name="base-datos" id="busqueda">
-            <option value="buscar" selected>Buscar</option>
-            <option value="peliculas">Peliculas</option>
-            <option value="series">Series</option>
-            <option value="buscar">Las mas aclamadas</option>
-            <option value="buscar">Las mas vistas</option>
-            <option value="buscar">Ciencia Ficción</option>
-        </select>
-    </div>
-    </nav>
     
 <header id="fondo">
     <section class="header">
-    <h1 id="logo">Star Movies</h1>
-        <div id="logo1">
-       
-
-        </div>
+        <h1 id="logo">Star Movies</h1>
+            <div id="logo1">
+           
     
-    </section>
+            </div>
+        
+        </section>
 </header> 
 <main>
 
@@ -59,7 +54,7 @@
         </div>
         <br>
         <div class="input">
-        <input  type="text" placeholder="elegi tu peli">
+        <input  id="input1" type="text" placeholder="elegi tu peli">
         <input  type="submit" value="Buscar">
         <input  type="reset" value="borrar">
         </div>
@@ -123,7 +118,7 @@
     <section class="secciones">
     <form action="base-datos.html">
         
-        <h2>Los de siempre</h2>
+        <h2 class="input">Los de siempre</h2>
         <div class="buscando">
         <a href="titanic.html"><img src="./img-los-de-siempre/titanic.jpg" alt="titanic"></a>
         <a href="antes-de-ti.html"><img src="./img-los-de-siempre/antes-de-ti.jpg" alt="antes de ti"></a>
