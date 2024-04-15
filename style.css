@@ -30,7 +30,6 @@ body {
     width: 130px;
     height: 35px;
     border-radius: 10px;
-    justify-content: center;
     cursor: pointer;
 }
 
@@ -39,13 +38,10 @@ body {
     width: 180px;
     height: 35px;
     border-radius: 10px;
-    align-items: center;
-
 }
 
 .container #button1 {
     border-radius: 6px;
-    align-items: center;
 }
 
 .container a {
@@ -123,6 +119,10 @@ input {
     background-color: brown;
     margin: 0%;
     padding: 0%;   
+}
+
+.secciones:hover {
+    margin: 50px;
 }
 
 
