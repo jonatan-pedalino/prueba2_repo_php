@@ -15,18 +15,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
 }
 
 .container-fluid #logo {
-    color: black;
+    color: #490707da;
     transition: 2s;
     cursor: pointer;
-    transform: scaleX(0.8);
-}
-
-.container-fluid #logo:hover {
-    transform: scale(1.2);
+    animation: elementoLogo 3s;
 }
 
 .nav {
@@ -67,9 +62,7 @@ body {
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-   
-    
-}
+   }
 
 
 .fondo .texto {
