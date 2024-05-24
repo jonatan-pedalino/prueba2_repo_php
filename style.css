@@ -17,11 +17,12 @@ body {
     justify-content: space-between;
 }
 
-.container-fluid #logo {
+.container-fluid .log {
     color: #490707da;
     transition: 2s;
     cursor: pointer;
     animation: elementoLogo 3s;
+
 }
 
 .nav {
@@ -29,6 +30,7 @@ body {
     opacity: 65%;
     margin: 3px;
     display: flex;
+    height: 30%;
 
 }
 
